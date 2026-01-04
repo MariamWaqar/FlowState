@@ -1,11 +1,21 @@
-<div align="center">
+# FlowState 2026
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A dual-list task management application designed to separate "Weekday" (Productivity) and "Weekend" (Rest) life, featuring a persistent archive vault.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 One-Click Deployment to Vercel
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Export to GitHub**: Click the **"Save to GitHub"** button at the top of your workspace. Follow the prompts to create a new repository.
+2. **Connect to Vercel**:
+   - Log in to [Vercel.com](https://vercel.com).
+   - Click **"Add New"** > **"Project"**.
+   - Import the repository you just created from GitHub.
+3. **Deploy**: Vercel will automatically detect the `package.json` and `vite.config.ts`. Click **"Deploy"**.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Your application will be live on your own `.vercel.app` URL in less than 60 seconds.
 
-</div>
+## Tech Stack
+- **Framework**: React 19 (TypeScript)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Build Tool**: Vite
+- **Storage**: LocalStorage (Persistent on device)
